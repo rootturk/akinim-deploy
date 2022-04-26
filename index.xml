@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Akın Abdullahoğlu</title>
+    <link>https://akin.im/</link>
+    <description>Recent content on Akın Abdullahoğlu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 13 Mar 2022 20:58:37 +0000</lastBuildDate><atom:link href="https://akin.im/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dem-bu-dem</title>
+      <link>https://akin.im/posts/dembudem/</link>
+      <pubDate>Sun, 13 Mar 2022 20:58:37 +0000</pubDate>
+      
+      <guid>https://akin.im/posts/dembudem/</guid>
+      <description>Merhabalar, bir bahar ayında geçen kış fragmanını yaşadığımız günlerde bu yazıyı kaleme alıyorum. Hayatın içerisinde akan zamanı kontrol edemediğimiz şu günlerde
+kaçırdığımız ve yakalayamadığımız hayat gayelerimizi, ekonomik sıkıntılarımızı, geleceğimiz için gereken atılımları ve hedefleri nasıl gerçekleştireceğimizi
+planlamaya odaklanmış zamanlarda bir telefon sesiyle irkilen ve kalbin adrenalin sebebiyle hızlı çarpmaya başladığı, ani bir kötü haberle tüm belirttiğimiz hedeflerin yerini
+gerçeklik bir tokat gibi keserek bizi gerçeğe döndürmüştü.
+@jeremythomasphoto
+Tüm yıl konuşulan ekonomi, iş değişikliği, enflasyon ve gelecek kaygıları ile anı yaşayamamanın vermiş olduğu ezik</description>
+    </item>
+    
+    <item>
+      <title>PDF Generation Fundamentals With Puppeteer</title>
+      <link>https://akin.im/posts/pdf-generation-with-fundamentals/</link>
+      <pubDate>Thu, 03 Feb 2022 21:10:25 +0300</pubDate>
+      
+      <guid>https://akin.im/posts/pdf-generation-with-fundamentals/</guid>
+      <description>Hello, today I will share with you my experience about PDF file creation processes using HTML templates, I have been thinking about how to create HTML content as a PDF file for a while. The experiences I gained during this process consisted of a few add-ons. At first, I started using the plugin named WKHTMTOPDF, then as a result of my research on its website and on the internet, I saw that people were turning to different alternatives and I decided to use a different plugin.</description>
+    </item>
+    
+    <item>
+      <title>Durmanın verdiği rahatlama hissi!</title>
+      <link>https://akin.im/posts/durmanin-verdigi-rahatlama-hissi/</link>
+      <pubDate>Sun, 19 Dec 2021 22:58:27 +0300</pubDate>
+      
+      <guid>https://akin.im/posts/durmanin-verdigi-rahatlama-hissi/</guid>
+      <description>Uzun zaman oldu, düşünceler düşünceleri, fikirler fikirleri açtı, çalıştık, okuduk, ürettik. Gece ya da gündüz kimi zaman anlamlı kimi zaman anlamsız düşüncelerde bulduk kendimizi. Hayatı sorguladık, geleceği sorguladık, geçmişi sorguladık.. Bazen bir anlamsızlık içinde anlam aramaya çalıştık. Kimi zaman beklediğimiz gibi sonuçlanan durumlar kimi zamanlarda beklediğimizin tam tersi şekilde sonuçlandı. Pes etmedik belki de herkesin pes ettiği noktada biz pes etmeyelim diye motive ettik kendimizi, yaşam şartlarının çetinliği altında elimizden geldiği kadarıyla, zor şartlarda ayakta durmaya, emek vermeye çalıştık.</description>
+    </item>
+    
+    <item>
+      <title>Concurrency ve Kahve Molası</title>
+      <link>https://akin.im/posts/concurrency-kahve-molasi/</link>
+      <pubDate>Sun, 25 Apr 2021 23:05:20 +0300</pubDate>
+      
+      <guid>https://akin.im/posts/concurrency-kahve-molasi/</guid>
+      <description>Merhabalar, uzun zamandır yazmayı planladığım yazı serilerime artık başlamaya karar verdim ve buna ilk olarak Conccurrency kavramını ele alarak başlıyorum. Bu yazıya ulaşacak insanların az çok neye ihtiyacı olduklarını bildikleri için biraz onların anlayacağı bir dil kullanmaya özen gösterdim. Peşin olarak belirteyim ki bu makale genel olarak bilgi içermektedir. Kod örnekleri ve herhangi bir örnek çalışma maalesef kafa karışıklığı ve kavramları kompleksleştireceği için giriş seviyesine uygun bir makale ele almaya çalıştım&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Duygusal Zeka Özet</title>
+      <link>https://akin.im/posts/duygusal-zeka-ozet/</link>
+      <pubDate>Tue, 20 Apr 2021 23:08:39 +0300</pubDate>
+      
+      <guid>https://akin.im/posts/duygusal-zeka-ozet/</guid>
+      <description>Photo by: @qmikola
+Merhabalar, uzun zamandır kitaplarla ilgili bir yazı serisi yazmayı planlıyordum. 2019 Yılı içerisinde aldığım Daniel Goleman - Duygusal Zeka isimli kitabı okumaya başladığımdan itibaren başucu kitaplarımdan birisi oldu. Kitap gerçekten çoğu insanın okuması ve farkında olması gereken bilgiler barındırıyor. Ben bu yazımda kısaca aldığım notları sizlerle paylaşmak istedim. Hepinize bu kitabı okumanızı öneririm.
+Duygusal Zeka kitabından bir görünüm.
+Kitabın bir diğer adı &amp;ldquo;EQ neden IQ&amp;rsquo;dan daha önemlidir?&amp;rdquo; gibi aslında içeriği hakkında bilgi veren bir soru ile başlıyor.</description>
+    </item>
+    
+    <item>
+      <title>Python Django Üzerinde Redis Cache Nasıl Yapılır?</title>
+      <link>https://akin.im/posts/python-django-redis-cache-nasil-yapilir/</link>
+      <pubDate>Tue, 14 Nov 2017 05:52:41 +0300</pubDate>
+      
+      <guid>https://akin.im/posts/python-django-redis-cache-nasil-yapilir/</guid>
+      <description>Merhaba arkadaşlar, yakın zamanlarda Python programlama dilini kullanarak bir projeye başladım ve Django framework kullanma deneyimi elde ettim. Bu yazımda Django uygulaması üzerinde Redis ile nasıl haberleşebiliriz bu konuyu aktarmaya çalışacağım.
+Bir önceki yazımda OS-X üzerinde Redis kurulumunu aktarmıştım, bu yazımda yine OS-X üzerinden ilerleyeceğim, eğer kurulu değil ise onu okuyarak başlangıç yapabilirsiniz.
+Eğer zaten kurulu ise konsol da redis-cli ping komutunu yazıp PONG döndüğünü görürseniz devam edebilirsiniz.
+Virtual Enviroment nedir?</description>
+    </item>
+    
+    <item>
+      <title>MAC OS-X Redis Server Kurulumu</title>
+      <link>https://akin.im/posts/mac-osx-redis-server-kurulumu/</link>
+      <pubDate>Thu, 09 Nov 2017 04:19:41 +0300</pubDate>
+      
+      <guid>https://akin.im/posts/mac-osx-redis-server-kurulumu/</guid>
+      <description>Merhaba arkadaşlar, eğer bu konuya ulaştıysanız redis&amp;rsquo;in az çok ne yaptığı hakkında bilginiz vardır diye düşünüyorum. Redis, Memcache, Hazelcast genel olarak data cache sunucusu olarak kullanılan teknolojilerdir. Hepsinin birbirine göre birçok farkı vardır size en uygun olanını probleminize göre seçeceğiniz için bu kısmı size bırakıyorum. Biz OS X üzerinde package manager olarak kullanılan homebrew ile sistemimize Redis Server kurulumunu gerçekleştireceğiz.
+Homebrew kurmak için ruby gereksinimi vardır. Öncelikle Homebrew yok ise https://brew.</description>
+    </item>
+    
+    <item>
+      <title>Yeni yaş yeni dilekler</title>
+      <link>https://akin.im/posts/2016-dogum-gunu/</link>
+      <pubDate>Wed, 20 Jan 2016 20:58:27 +0300</pubDate>
+      
+      <guid>https://akin.im/posts/2016-dogum-gunu/</guid>
+      <description>Merhaba arkadaşlar, bugün doğum günüm ve bu yüzden bu yazıyı yazmaktayım. Ömrümden 1 yıl daha geçti ve bu yazıyı yazmadan önce yaşadığım 365 günü geride bırakarak yeni bir yaşıma daha girdim. Bu yaşımda beni nelerin beklediğini asla bilmiyorum ama tek dileğim herkes için mutlu, huzurlu bir yıl olması ve tüm insanların birbirine saygı duyduğu bir medeniyet seviyesine ulaşmak olacaktır.
+Gerçekten günler, haftalar, aylar o kadar hızlı geçiyor ki önceki günün farkına varmadan sonraki güne ulaşıyoruz ve özellikle de çalışıyorsak zaman bizim için daha da daralıyor.</description>
+    </item>
+    
+    <item>
+      <title>Merhaba Dünya</title>
+      <link>https://akin.im/posts/merhaba-dunya/</link>
+      <pubDate>Fri, 30 Aug 2013 17:35:41 +0300</pubDate>
+      
+      <guid>https://akin.im/posts/merhaba-dunya/</guid>
+      <description>Herkese Merhaba, Yeni blog sayfamın ilk yazısıdır.
+Adım Akın, Yazılım Geliştiricisiyim.
+Küçük yaşlardan beri bilgisayar dünyasının içerisindeyim, yıllardır günlük tutma hedefim vardı bu sebeple web ortamında bir günlük amacı taşısın diye çeşitli yazılar yazmayı planlıyorum.
+Bu blog sayfasını hem kendime hem de sizler için yararlı olabilecek yazılar ve paylaşımlar yapmak için açtım.
+Yazılarda buluşmak dileğiyle.
+Akın.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://akin.im/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://akin.im/about/</guid>
+      <description>about</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Tag</title>
+      <link>https://akin.im/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://akin.im/tags/</guid>
+      <description>tags</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>django redis on Akın Abdullahoğlu</title>
+    <link>https://akin.im/tags/django-redis/</link>
+    <description>Recent content in django redis on Akın Abdullahoğlu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 14 Nov 2017 05:52:41 +0300</lastBuildDate><atom:link href="https://akin.im/tags/django-redis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Django Üzerinde Redis Cache Nasıl Yapılır?</title>
+      <link>https://akin.im/posts/python-django-redis-cache-nasil-yapilir/</link>
+      <pubDate>Tue, 14 Nov 2017 05:52:41 +0300</pubDate>
+      
+      <guid>https://akin.im/posts/python-django-redis-cache-nasil-yapilir/</guid>
+      <description>Merhaba arkadaşlar, yakın zamanlarda Python programlama dilini kullanarak bir projeye başladım ve Django framework kullanma deneyimi elde ettim. Bu yazımda Django uygulaması üzerinde Redis ile nasıl haberleşebiliriz bu konuyu aktarmaya çalışacağım.
+Bir önceki yazımda OS-X üzerinde Redis kurulumunu aktarmıştım, bu yazımda yine OS-X üzerinden ilerleyeceğim, eğer kurulu değil ise onu okuyarak başlangıç yapabilirsiniz.
+Eğer zaten kurulu ise konsol da redis-cli ping komutunu yazıp PONG döndüğünü görürseniz devam edebilirsiniz.
+Virtual Enviroment nedir?</description>
+    </item>
+    
+  </channel>
+</rss>

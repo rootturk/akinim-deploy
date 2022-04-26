@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>expressjs on Akın Abdullahoğlu</title>
+    <link>https://akin.im/tags/expressjs/</link>
+    <description>Recent content in expressjs on Akın Abdullahoğlu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 03 Feb 2022 21:10:25 +0300</lastBuildDate><atom:link href="https://akin.im/tags/expressjs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PDF Generation Fundamentals With Puppeteer</title>
+      <link>https://akin.im/posts/pdf-generation-with-fundamentals/</link>
+      <pubDate>Thu, 03 Feb 2022 21:10:25 +0300</pubDate>
+      
+      <guid>https://akin.im/posts/pdf-generation-with-fundamentals/</guid>
+      <description>Hello, today I will share with you my experience about PDF file creation processes using HTML templates, I have been thinking about how to create HTML content as a PDF file for a while. The experiences I gained during this process consisted of a few add-ons. At first, I started using the plugin named WKHTMTOPDF, then as a result of my research on its website and on the internet, I saw that people were turning to different alternatives and I decided to use a different plugin.</description>
+    </item>
+    
+  </channel>
+</rss>
