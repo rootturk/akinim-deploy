@@ -1,40 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Programming on Akın Abdullahoğlu</title>
-    <link>https://akin.im/categories/programming/</link>
-    <description>Recent content in Programming on Akın Abdullahoğlu</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Feb 2022 21:10:25 +0300</lastBuildDate><atom:link href="https://akin.im/categories/programming/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>PDF Generation Fundamentals With Puppeteer</title>
-      <link>https://akin.im/posts/pdf-generation-with-fundamentals/</link>
-      <pubDate>Thu, 03 Feb 2022 21:10:25 +0300</pubDate>
-      
-      <guid>https://akin.im/posts/pdf-generation-with-fundamentals/</guid>
-      <description>Hello, today I will share with you my experience about PDF file creation processes using HTML templates, I have been thinking about how to create HTML content as a PDF file for a while. The experiences I gained during this process consisted of a few add-ons. At first, I started using the plugin named WKHTMTOPDF, then as a result of my research on its website and on the internet, I saw that people were turning to different alternatives and I decided to use a different plugin.</description>
-    </item>
-    
-    <item>
-      <title>Concurrency ve Kahve Molası</title>
-      <link>https://akin.im/posts/concurrency-kahve-molasi/</link>
-      <pubDate>Sun, 25 Apr 2021 23:05:20 +0300</pubDate>
-      
-      <guid>https://akin.im/posts/concurrency-kahve-molasi/</guid>
-      <description>Merhabalar, uzun zamandır yazmayı planladığım yazı serilerime artık başlamaya karar verdim ve buna ilk olarak Conccurrency kavramını ele alarak başlıyorum. Bu yazıya ulaşacak insanların az çok neye ihtiyacı olduklarını bildikleri için biraz onların anlayacağı bir dil kullanmaya özen gösterdim. Peşin olarak belirteyim ki bu makale genel olarak bilgi içermektedir. Kod örnekleri ve herhangi bir örnek çalışma maalesef kafa karışıklığı ve kavramları kompleksleştireceği için giriş seviyesine uygun bir makale ele almaya çalıştım&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Python Django Üzerinde Redis Cache Nasıl Yapılır?</title>
-      <link>https://akin.im/posts/python-django-redis-cache-nasil-yapilir/</link>
-      <pubDate>Tue, 14 Nov 2017 05:52:41 +0300</pubDate>
-      
-      <guid>https://akin.im/posts/python-django-redis-cache-nasil-yapilir/</guid>
-      <description>Merhaba arkadaşlar, yakın zamanlarda Python programlama dilini kullanarak bir projeye başladım ve Django framework kullanma deneyimi elde ettim. Bu yazımda Django uygulaması üzerinde Redis ile nasıl haberleşebiliriz bu konuyu aktarmaya çalışacağım.
-Bir önceki yazımda OS-X üzerinde Redis kurulumunu aktarmıştım, bu yazımda yine OS-X üzerinden ilerleyeceğim, eğer kurulu değil ise onu okuyarak başlangıç yapabilirsiniz.
-Eğer zaten kurulu ise konsol da redis-cli ping komutunu yazıp PONG döndüğünü görürseniz devam edebilirsiniz.
-Virtual Enviroment nedir?</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Programming on Akın Abdullahoğlu</title><link>https://akin.im/categories/programming/</link><description>Recent content in Programming on Akın Abdullahoğlu</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 03 Feb 2022 21:10:25 +0300</lastBuildDate><atom:link href="https://akin.im/categories/programming/index.xml" rel="self" type="application/rss+xml"/><item><title>PDF Generation Fundamentals With Puppeteer</title><link>https://akin.im/posts/pdf-generation-with-fundamentals/</link><pubDate>Thu, 03 Feb 2022 21:10:25 +0300</pubDate><guid>https://akin.im/posts/pdf-generation-with-fundamentals/</guid><description>&lt;p&gt;Hello, today I will share with you my experience about PDF file creation processes using HTML templates, I have been thinking about how to create HTML content as a PDF file for a while. The experiences I gained during this process consisted of a few add-ons. At first, I started using the plugin named WKHTMTOPDF, then as a result of my research on its website and on the internet, I saw that people were turning to different alternatives and I decided to use a different plugin.&lt;/p&gt;</description></item><item><title>Concurrency ve Kahve Molası</title><link>https://akin.im/posts/concurrency-kahve-molasi/</link><pubDate>Sun, 25 Apr 2021 23:05:20 +0300</pubDate><guid>https://akin.im/posts/concurrency-kahve-molasi/</guid><description>&lt;p&gt;Merhabalar, uzun zamandır yazmayı planladığım yazı serilerime artık başlamaya karar verdim ve buna ilk olarak Conccurrency kavramını ele alarak başlıyorum. Bu yazıya ulaşacak insanların az çok neye ihtiyacı olduklarını bildikleri için biraz onların anlayacağı bir dil kullanmaya özen gösterdim. Peşin olarak belirteyim ki bu makale genel olarak bilgi içermektedir. Kod örnekleri ve herhangi bir örnek çalışma maalesef kafa karışıklığı ve kavramları kompleksleştireceği için giriş seviyesine uygun bir makale ele almaya çalıştım&amp;hellip;&lt;/p&gt;</description></item><item><title>Python Django Üzerinde Redis Cache Nasıl Yapılır?</title><link>https://akin.im/posts/python-django-redis-cache-nasil-yapilir/</link><pubDate>Tue, 14 Nov 2017 05:52:41 +0300</pubDate><guid>https://akin.im/posts/python-django-redis-cache-nasil-yapilir/</guid><description>&lt;p&gt;Merhaba arkadaşlar, yakın zamanlarda &lt;strong&gt;Python&lt;/strong&gt; programlama dilini kullanarak bir projeye başladım ve &lt;strong&gt;Django framework&lt;/strong&gt; kullanma deneyimi elde ettim. Bu yazımda &lt;strong&gt;Django&lt;/strong&gt; uygulaması üzerinde &lt;strong&gt;Redis&lt;/strong&gt; ile nasıl haberleşebiliriz bu konuyu aktarmaya çalışacağım.&lt;/p&gt;
+&lt;p&gt;Bir önceki yazımda &lt;strong&gt;OS-X&lt;/strong&gt; üzerinde &lt;strong&gt;Redis&lt;/strong&gt; kurulumunu aktarmıştım, bu yazımda yine OS-X üzerinden ilerleyeceğim, eğer kurulu değil ise onu okuyarak başlangıç yapabilirsiniz.&lt;/p&gt;
+&lt;p&gt;Eğer zaten kurulu ise konsol da &lt;strong&gt;redis-cli&lt;/strong&gt; &lt;strong&gt;ping&lt;/strong&gt; komutunu yazıp &lt;strong&gt;PONG&lt;/strong&gt; döndüğünü görürseniz devam edebilirsiniz.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="https://tutorial.djangogirls.org/tr/installation/#bir-virtualenv-kurun-ve-djangoyu-y%C3%BCkleyin"&gt;Virtual Enviroment nedir?&lt;/a&gt;&lt;/strong&gt; bu kaynaktan okuyarak anlayabilirsiniz.&lt;/p&gt;</description></item></channel></rss>
