@@ -1,6 +1,61 @@
 (function () {
   'use strict';
 
+  /* ── 0. Matrix boot screen ───────────────────────────── */
+  if (document.body.classList.contains('booting')) {
+    sessionStorage.setItem('rsc_booted', '1');
+    var bootEl = document.getElementById('matrix-boot');
+
+    var canvas = document.createElement('canvas');
+    bootEl.appendChild(canvas);
+    var tagEl = document.createElement('div');
+    tagEl.className = 'boot-tagline';
+    bootEl.appendChild(tagEl);
+
+    var ctx = canvas.getContext('2d');
+    var fs = 14;
+    canvas.width  = window.innerWidth;
+    canvas.height = window.innerHeight;
+    var cols  = Math.floor(canvas.width / fs);
+    var drops = Array.from({ length: cols }, function () { return Math.random() * -40; });
+    var chars = 'アイウエオカキクケコサシスセソタチツテト0110';
+
+    function drawMatrix() {
+      ctx.fillStyle = 'rgba(7,7,15,0.06)';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      drops.forEach(function (y, i) {
+        var ch = chars[Math.floor(Math.random() * chars.length)];
+        ctx.fillStyle = Math.random() > 0.97 ? '#ffffff' : '#00ff88';
+        ctx.globalAlpha = 0.4 + Math.random() * 0.6;
+        ctx.font = fs + 'px JetBrains Mono,monospace';
+        ctx.fillText(ch, i * fs, y * fs);
+        ctx.globalAlpha = 1;
+        if (y * fs > canvas.height && Math.random() > 0.975) drops[i] = 0;
+        drops[i] += 0.6;
+      });
+    }
+
+    var iv = setInterval(drawMatrix, 35);
+
+    setTimeout(function () {
+      tagEl.textContent = 'rawscorp@akin.im:~$';
+      tagEl.classList.add('visible');
+    }, 1100);
+
+    function dismissBoot() {
+      clearInterval(iv);
+      bootEl.style.transition = 'opacity 0.5s';
+      bootEl.style.opacity = '0';
+      setTimeout(function () { document.body.classList.remove('booting'); }, 500);
+      bootEl.removeEventListener('click', dismissBoot);
+      document.removeEventListener('keydown', dismissBoot);
+    }
+
+    setTimeout(dismissBoot, 2400);
+    bootEl.addEventListener('click', dismissBoot);
+    document.addEventListener('keydown', dismissBoot, { once: true });
+  }
+
   /* ── 1. Language toggle (about page) ─────────────────── */
   var langBtns = document.querySelectorAll('.lang-btn');
   if (langBtns.length) {

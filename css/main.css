@@ -2,6 +2,39 @@
    rawscorp — cyberpunk terminal theme
    ═══════════════════════════════════════════ */
 
+/* ── Matrix boot ────────────────────────── */
+#matrix-boot {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: #07070f;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 3.5rem;
+  cursor: pointer;
+  overflow: hidden;
+}
+body.booting #matrix-boot { display: flex; }
+body.booting .site { visibility: hidden; }
+#matrix-boot canvas { position: absolute; inset: 0; }
+.boot-tagline {
+  position: relative;
+  font-family: var(--mono);
+  font-size: 1rem;
+  color: var(--green);
+  letter-spacing: 0.12em;
+  opacity: 0;
+  transition: opacity 0.5s;
+  text-shadow: 0 0 12px var(--green), 0 0 24px rgba(0,255,136,0.4);
+}
+.boot-tagline::after {
+  content: '█';
+  animation: blink 1s step-end infinite;
+  margin-left: 2px;
+}
+.boot-tagline.visible { opacity: 1; }
+
 /* ── Reset ──────────────────────────────── */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -678,6 +711,55 @@ body::after {
   color: var(--muted);
   letter-spacing: 0.05em;
   pointer-events: none;
+}
+
+/* ── 404 page ───────────────────────────── */
+.error-page { padding-top: 1rem; }
+.error-block { margin: 2rem 0; }
+.error-code {
+  font-size: clamp(4rem, 16vw, 8rem);
+  font-weight: 700;
+  color: var(--pink);
+  text-shadow: 0 0 30px rgba(255,0,119,0.4);
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.error-msg {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  letter-spacing: 0.05em;
+}
+.error-links { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 2rem; }
+
+/* ── Posts list improvements ────────────── */
+.list-count { color: var(--muted); font-size: 0.8em; }
+.all-post-link {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.post-meta-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+.post-read-est {
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-family: var(--mono);
+  letter-spacing: 0.05em;
+}
+.post-tag-inline {
+  color: var(--cyan);
+  font-size: 0.7rem;
+  font-family: var(--mono);
+  letter-spacing: 0.03em;
+  opacity: 0.7;
 }
 
 /* ── Responsive ─────────────────────────── */
