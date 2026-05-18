@@ -7,6 +7,11 @@
     var bootEl = document.getElementById('matrix-boot');
 
     var canvas = document.createElement('canvas');
+    canvas.style.cssText = 'position:absolute;top:0;left:0;display:block;';
+    canvas.width  = window.innerWidth;
+    canvas.height = window.innerHeight;
+    canvas.style.width  = canvas.width  + 'px';
+    canvas.style.height = canvas.height + 'px';
     bootEl.appendChild(canvas);
     var tagEl = document.createElement('div');
     tagEl.className = 'boot-tagline';
@@ -14,8 +19,6 @@
 
     var ctx = canvas.getContext('2d');
     var fs = 14;
-    canvas.width  = window.innerWidth;
-    canvas.height = window.innerHeight;
     var cols  = Math.floor(canvas.width / fs);
     var drops = Array.from({ length: cols }, function () { return Math.random() * -40; });
     var chars = 'アイウエオカキクケコサシスセソタチツテト0110';

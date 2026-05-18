@@ -17,7 +17,7 @@
 }
 body.booting #matrix-boot { display: flex; }
 body.booting .site { visibility: hidden; }
-#matrix-boot canvas { position: absolute; inset: 0; }
+#matrix-boot canvas { display: block; }
 .boot-tagline {
   position: relative;
   font-family: var(--mono);
