@@ -202,7 +202,51 @@
     });
   }
 
-  /* ── 6. Console easter egg ────────────────────────────── */
+  /* ── 6. Image lightbox ───────────────────────────────── */
+  document.querySelectorAll('.post-content img').forEach(function (img) {
+    img.classList.add('zoomable');
+    img.addEventListener('click', function () {
+      var lb = document.createElement('div');
+      lb.className = 'lightbox';
+
+      var wrap = document.createElement('div');
+      wrap.className = 'lightbox-wrap';
+
+      var clone = document.createElement('img');
+      clone.src = img.src;
+      clone.alt = img.alt;
+
+      var hint = document.createElement('span');
+      hint.className = 'lightbox-hint';
+      hint.textContent = 'esc / tıkla → kapat';
+
+      wrap.appendChild(clone);
+      lb.appendChild(wrap);
+      lb.appendChild(hint);
+      document.body.appendChild(lb);
+      document.body.style.overflow = 'hidden';
+
+      requestAnimationFrame(function () { lb.classList.add('open'); });
+
+      function closeLb() {
+        lb.classList.remove('open');
+        setTimeout(function () {
+          if (lb.parentNode) lb.parentNode.removeChild(lb);
+        }, 180);
+        document.body.style.overflow = '';
+        document.removeEventListener('keydown', onKey);
+      }
+
+      function onKey(e) { if (e.key === 'Escape') closeLb(); }
+
+      lb.addEventListener('click', function (e) {
+        if (e.target !== clone) closeLb();
+      });
+      document.addEventListener('keydown', onKey);
+    });
+  });
+
+  /* ── 7. Console easter egg ────────────────────────────── */
   var s = 'color:#00ff88;font-family:monospace;font-size:12px';
   var m = 'color:#3d4466;font-family:monospace;font-size:11px';
   console.log('%crawscorp@akin.im:~$', s);
